@@ -13,11 +13,11 @@ s.listen(1)
 conn, addr = s.accept()
 print('Connection address:', addr)
 
-while 1:
+while True:
     data = conn.recv(buffer_size)
     if not data:
         break
 
-    print("Received data:", addr)
+    print("Received data:", data.decode())
 
 conn.close()
