@@ -15,7 +15,7 @@ These instructions will help you set up and run the TCP server on your local mac
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/cyber-bytezz/tcp-server.git
+   git clone https://github.com/cyber-bytezz/Tcp-Listien.git
    cd tcp-server
    ```
 
